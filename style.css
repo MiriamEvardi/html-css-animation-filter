@@ -171,7 +171,7 @@
     }
 }
 
-.ex-12-button:hover .ex-12-top-white {
+.ex-12-button .ex-12-top-white {
     animation: buttontop 1s linear;
 }
 
@@ -182,7 +182,7 @@
     }
 
     50% {
-        left: calc(100%-60px);
+        left: 60%;
     }
 
     100% {
@@ -191,7 +191,7 @@
 
 }
 
-.ex-12-button:hover .ex-12-bottom-white {
+.ex-12-button .ex-12-bottom-white {
     animation: buttonbot 1s linear;
 }
 
@@ -201,7 +201,7 @@
     }
 
     50% {
-        right: calc(100% - 60px);
+        right: 60%;
     }
 
     100% {
@@ -220,12 +220,12 @@
     }
 
     30% {
-        left: calc(100% - 30px);
+        left: 70%;
         top: -10px;
     }
 
     45% {
-        left: calc(100% - 30px);
+        left: 70%;
         top: 100%;
     }
 
@@ -256,12 +256,12 @@
     }
 
     30% {
-        right: calc(100% - 30px);
+        right: 70%;
         bottom: -10px;
     }
 
     45% {
-        right: calc(100% - 30px);
+        right: 70%;
         bottom: 100%;
     }
 
